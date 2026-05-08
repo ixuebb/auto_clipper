@@ -1,0 +1,6 @@
+highlights_input/
+highlights_output/
+__pycache__/
+*.mp4
+*.wav
+tempCodeRunnerFile.py
