@@ -79,9 +79,9 @@ def main():
     # 找到下载的视频文件
     video_files = glob.glob(os.path.join(INPUT_DIR, "video_temp*.mp4"))
     if not video_files:
-        video_files = glob.glob(os.path.join(SCRIPT_DIR, "video_temp*.flv"))
+        video_files = glob.glob(os.path.join(INPUT_DIR, "video_temp*.flv"))
     if not video_files:
-        video_files = glob.glob(os.path.join(SCRIPT_DIR, "video_temp*.mkv"))
+        video_files = glob.glob(os.path.join(INPUT_DIR, "video_temp*.mkv"))
     if not video_files:
         print("错误: 未找到视频文件")
         sys.exit(1)
